@@ -212,7 +212,7 @@ def dark_layout(fig, height=420, title=""):
     return fig
 
 # ── LOAD DATA ────────────────────────────────────────────────────
-data_path = "C:/Users/hprai/OneDrive/Desktop/Python/Healtcare/India healthcare Analysis/Data"
+data_path = "data"
 
 @st.cache_data
 def load_data():
